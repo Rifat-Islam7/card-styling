@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+    background-color: grey;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.html-section{
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 5px black;
+}
+.image{
+    width: 100%;
+    background-color: black;
+}
+.paragraph{
+    padding: 5px;
+    background-color: cadetblue;
+}
+.paragraph .card-title{
+    text-align: center;
+    color: white;
+}
+.paragraph .card-description{
+        font-size: 20px;
+        text-align: justify;
+        color: white;
+}
+.html-section:hover{
+    box-shadow: 5px 7px 9px white;
+    text-shadow: 2px 4px 5px black;
+    transition: 0.1s;
+}
